@@ -1,0 +1,137 @@
+body{
+	background:#ddd;
+}
+#genel{
+	width:990px;
+	height:auto;
+	margin:auto;
+}
+.en-ust{
+	background:#000066;
+	width:990px;
+	height:30px;
+}
+.en-ust input{
+	width:10px;
+	float:right;
+	margin:0px;
+	padding:5px;
+}
+.ust{
+	width:990px;
+	height:100px;
+	background:white;
+	
+}
+form{
+	text-align: center;
+}
+.en-ust select{
+	float:right;
+	text-align:center;
+}
+
+.menu{ 
+
+    margin-top:20px; 
+
+    width:990px; 
+
+    height:90px; 
+
+    background:#000066; 
+
+    margin-bottom:20px; 
+
+} 
+
+.menu ul li{ 
+
+    list-style:none; 
+
+    float:left; 
+
+    padding:15px; 
+
+    margin:15px; 
+
+    width:60px; 
+
+ 
+} 
+
+.menu ul li:hover{ 
+
+    background-color:#62d889; 
+
+} 
+
+.menu ul li a{ 
+
+    text-decoration:none; 
+
+    font:bold 18px verdana; 
+
+    color:#6699FF; 
+
+}
+
+.icerik{
+	width:990px;
+	height:auto;
+	
+}
+.icerik-sol{
+	width:600px;
+	min-height:450px;
+	background:skyblue;
+	float:left;
+	margin-left:40px;
+}
+.icerik-sag{
+	width:350px;
+	height:450px;
+	background:#FFFFCC;
+	float:left;
+}
+
+.icerik-sag ul li{
+	width:250px;
+	/*border:1px solid #ddd;*/
+	margin:5px;
+	padding:10px;
+	list-style:none;
+}
+.icerik-sag ul{
+	margin:0px;
+	padding:0px;
+}
+.icerik-sag ul li a{
+	text-decoration:none;
+	font:bold 25px verdana;
+	color:#336666;
+}
+.icerik-sag ul li a:hover{
+	background:#FFCC00;
+}
+
+.alt{
+	width:990px;
+	height:150px;
+	background:#FFFFCC;
+	float:left;
+	margin-top:20px;
+	
+}
+.alt p{
+	margin:20px;
+	color:black;
+}
+.alt ul li a{
+	text-decoration:none;
+	color:black;
+}
+.alt ul li:hover{
+	background:#FFCC00;
+}
+
